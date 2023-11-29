@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Manageent</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+</head>
+<body>
+<!-----------header-------->
+  <section class="header">
+    <nav>
+    <a href="index.html"><img src="images/logo.png" alt=""></a>
+     <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i><!--closing icon link from "fontawesome icons" -->
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="service.html">SERVICE</a></li>
+         <li><a href="gallery.html">GALLERY</a></li>
+         <li><a href="about .html">ABOUT</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+         
+       </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()"></i>   <!--icon link from "fontawesome icons -->
+    </nav>
+   <div class="text-box">
+    <h1>We Will Give A Very Special Celebration For You </h1>
+    <p>Our creativity, attention to detail, and passion for planning will ensure that your next corporate event is a huge success.<br> We take the time to get to know your organization – your mission, your goals, your vision, and we work with you to create an event that reflects your company brand.</p>   
+      
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+
+
+  </section>
+  
+<section class="nextpage">
+   <h1>From Venue Selection<br> to Event Execution, <br>We’re With You Every Step of the Way!</h1>
+    <br>
+    <br>
+    <br>
+   <p><b>We know that every event is unique. <br>Whether the focus is on employee appreciation, recognition, and retention,creating a team bonding experience, or providing an educational opportunity;<br>we listen to your ideas and help to make your vision a reality, with an end result that exceeds your expectations.<b></p>
+
+  </section>
+   
+  
+<!--------testimonals-------->
+<section class="testimonial">
+    <h1>Testimonials</h1>
+   
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="images/image15.jpg">
+        <div>
+           <p>"I would definitely recommend Evento.If you are planning a corporate event and need deep experties and people who know exactyl what they're doing, bring Evento on board."</p> 
+            <h3>Zoom Vedio Communication</h3>
+            <h6>(Product Marketing)</h6>
+        </div>
+      </div>  
+      <div class="testimonial-col">
+        <img src="images/images16.jpg">
+        <div>
+           <p>"Team Evento is amazing!! Efficient ,responsive, friendly,and hands-on, they get it all done with a amile no matter what we throw at them.We couldn't pull off our events without them."</p> 
+           <h3>Blue Matter</h3>
+           <h6>(Chief People Officer)</h6>
+        </div>
+      </div> 
+    </div>
+
+    <div class="row">
+      <div class="testimonial-col">
+          <img src="images/image19.jpg">
+        <div>
+             <p>"Evento delivered the most stress-free corporate event planning experince ever.I cant't imagine ever working with any other company for our future event."</p> 
+              <h3>Totango</h3>
+              <h6>(Marketing Manager)</h6>
+        </div>
+      </div>  
+      <div class="testimonial-col">
+          <img src="images/image18.jpg">
+        <div>
+             <p>"They worked very effectively and proffesonally.i am happy with their services.They made my wedding day perfect."</p> 
+             <h3>Parinaya Sutra</h3>
+             <h6>(Our Client)</h6>
+        </div>
+      </div> 
+    </div>
+
+
+</section>
+
+  
+
+
+  
+<!-------footer------>
+<section class="footer">
+  <h3>THANK YOU</h3>
+  <p><b>We love the creative solution.We live for unexpected design, unique experiences and seamless production.<br>We have been entrusted by some of the most recognized and successful companies,as well as up-and-coming businesses that are disrupting their industries</b></p>
+
+</section>
+
+
+
+
+<!--Javascript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px"
+    }
+
+</script>  
+
+
+
+</body>
+</html>
